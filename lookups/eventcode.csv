@@ -21,4 +21,8 @@ EventCode,EventDescription
 20,"WmiEventConsumer activity detected"
 21,"WmiEventConsumerToFilter activity detected"
 22,"DNS Query"
+23,"File Delete archived"
+24,"Clipboard changed"
+25,"Process Tampering"
+26,"File Delete logged"
 255,"Error"

@@ -5,6 +5,13 @@
 
 ## Update History
 
+## 13.22.0
+
+* June 23, 2021
+* Add support for PROCESS_IMAGE_TAMPERING (id 25) and FILE_DELETE_DETECTED (id 26) event types
+* <https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon>
+* <https://github.com/trustedsec/SysmonCommunityGuide>
+
 ## 10.6.2
 
 * March 8, 2020
