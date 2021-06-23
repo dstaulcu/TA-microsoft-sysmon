@@ -8,9 +8,16 @@
 ## 13.22.0
 
 * June 23, 2021
-* Add support for PROCESS_IMAGE_TAMPERING (id 25) and FILE_DELETE_DETECTED (id 26) event types
-* <https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon>
+* Add support for new following events:
+    | EventID | EventDescription | CIM Support Types |
+    | --------|:--------------------:| -------| 
+    | 23      | File Delete archived | Change, Endpoint |
+    | 24      | Clipboard changed    | Change, Endpoint, DLP (maybe) |
+    | 25      | Process Tampering    | Change, Endpoint |
+    | 26      | File Delete logged   | Change, Endpoint |
+* <https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon>	
 * <https://github.com/trustedsec/SysmonCommunityGuide>
+* <https://docs.splunk.com/Documentation/CIM/4.19.0/User/Overview>
 
 ## 10.6.2
 
