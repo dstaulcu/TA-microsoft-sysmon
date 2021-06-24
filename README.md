@@ -1,23 +1,24 @@
 # TA-Microsoft-Sysmon
 
 * Original Author: Adrian Hall
-* Current maintainers: Splunkworks
+* Current Maintainer: David Staulcup
+* <https://github.com/dstaulcu/TA-microsoft-sysmon>
 
 ## Update History
 
 ## 13.22.0
 
 * June 23, 2021
-* Add support for new following events:
-    | EventID | EventDescription | CIM Support Types |
-    | --------|:--------------------:| -------| 
+* Add support for new events:
+    | EventID | EventDescription     | CIM Type(s)      |
+    | --------|:--------------------:| -----------------| 
     | 23      | File Delete archived | Change, Endpoint |
-    | 24      | Clipboard changed    | Change, Endpoint, DLP (maybe) |
+    | 24      | Clipboard changed    | Change, Endpoint |
     | 25      | Process Tampering    | Change, Endpoint |
     | 26      | File Delete logged   | Change, Endpoint |
 * <https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon>	
 * <https://github.com/trustedsec/SysmonCommunityGuide>
-* <https://docs.splunk.com/Documentation/CIM/4.19.0/User/Overview>
+* <https://docs.splunk.com/Documentation/CIM/4.19.0/User/Change>
 
 ## 10.6.2
 
